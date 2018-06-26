@@ -23,7 +23,7 @@ export class AlertListComponent implements OnInit, OnDestroy {
     {headerName: 'ClientIP', field: 'ClientIP', width: 150},
     {headerName: 'ServerIP', field: 'ServerIP', width: 150},
     {headerName: 'Protocol', field: 'Protocol', width: 150},
-    {headerName: 'ClientCounty', field: 'ClientCounty', width: 150}
+    {headerName: 'ClientCounty', field: 'ClientCountry', width: 150}
   ];
 
   constructor(private alertService: AlertService) {
